@@ -8,7 +8,6 @@ import android.util.Log
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.ImageButton
-import java.io.IOException
 
 class MainActivity : AppCompatActivity() {
     private var mCamera: Camera? = null
@@ -30,6 +29,6 @@ class MainActivity : AppCompatActivity() {
         }
         @SuppressLint("MissingInflatedId", "LocalSuppress") val imageClose =
             findViewById<View>(R.id.imgClose) as ImageButton
-            imageClose.setOnClickListener{view: View -> System.exit(0)}
+            imageClose.setOnClickListener{view: View? -> System.exit(0)}
     }
 }

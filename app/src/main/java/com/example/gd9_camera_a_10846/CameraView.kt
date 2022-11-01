@@ -1,7 +1,6 @@
 package com.example.gd9_camera_a_10846
 
 import android.content.Context
-import android.graphics.Camera
 import android.util.Log
 import android.view.SurfaceHolder
 import android.view.SurfaceView
